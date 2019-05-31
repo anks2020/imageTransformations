@@ -1,0 +1,130 @@
+/* div.links>div{
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    height: 122px;
+    line-height: 125px;
+    margin-bottom: -14px;
+
+} */
+#intro{
+    display: inline-block;
+    background-color: black;
+    position: relative;
+    width: 50%;
+    top: 19px;
+    height: 100%;
+    color: white;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+div#intro >p{
+    font-size: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    right: 18px;
+    transform: translateY(-50%);
+}
+#right{
+    background-color: black;
+    height: 100%;
+    width:50%;
+    position: absolute;
+    top: 72px;
+    right: 18px;
+    overflow: auto;
+}
+#left{
+    background-color: wheat;
+    padding: 16px;
+    margin: 0px 15px;
+    height: 450px;
+    overflow-y: auto;
+    border: 7px solid black;
+    background: whitesmoke;
+    
+}
+#notfound{
+    height:480px;
+    background-image: linear-gradient(to right, rgba(197, 187, 187, 0), rgba(255,0,0,1));
+}
+.Oops{
+    padding: 30px;
+    height:100%;
+    text-align: center;
+    /* background: goldenrod; */
+    margin: 0 auto;
+    width: 50%;
+}
+.dims :first-child{
+    position: relative;
+    top: 32px;
+    padding: 9px;
+}
+.dims{
+    position: relative;
+    top: 32px;
+    padding: 7px;
+}
+.Details{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.MuiOutlinedInput-input {
+    padding: 13.5px 14px !important; 
+}
+#selected-image{
+    position: relative;
+    margin-top: 10px;
+}
+#tfield{
+    background: white
+}
+.ImageResult{
+    margin: 6px 6px 6px 6px;
+    position: relative;
+}
+.ImageResult >div>img{
+    /* height:100% !important; */
+    top:0px !important;
+}
+.uploader >span{
+    display:inline-flex
+}
+
+
+.divSquare{
+    width: 48%;
+    height: 259px;
+    margin: 4px;
+    /* border: 1px solid black; */
+    float: left;
+    text-align: center;
+    padding: 0px;
+    /* background: deepskyblue; */
+}
+.divSquare >a>img{
+    margin-top: 11%;
+    width: 56%;
+}
+
+
+.optionWrapper{
+    margin-left: 3px;
+    position: relative;
+    float: left;
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    top: 16px;
+    height: 100%;
+    color: white;
+    height: 550px;
+    width: 50%;
+}
+.inputform >input{
+    display: none
+}
