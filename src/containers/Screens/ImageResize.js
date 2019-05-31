@@ -24,25 +24,17 @@ class App extends Component{
 }
 onHeightChanged=(value)=>{
     this.setState({height:value})
-    console.log(value+'height')
 }
 onWidthChanged=(value)=>{
     this.setState({width:value})
-    console.log(value+"width")
 }
 setuploadedIMG =(image) =>{
-    console.log('emptyarr'+this.state.uploadedImage)
     let imgarr=[...this.state.uploadedImage]
-    console.log(imgarr+' temp')
     imgarr.push(image)
     this.setState({
-        uploadedImage:imgarr},
-        ()=>{console.log('iage'+image);
-            console.log(this.state.uploadedImage+'   jhioli');
-    })
+        uploadedImage:imgarr})
 }
 resize =()=>{
-    console.log(this.state.uploadedImage+'ooooooooooooooooooo')
     this.setState({resize:true});
  }
 render()
